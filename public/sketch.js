@@ -2,12 +2,5 @@ document.body.style.margin   = 0
 document.body.style.overflow = `hidden`
 
 const cnv = document.getElementById (`NTcanvas`)
-cnv.style.background = ""
+cnv.style.background = "black"
 
-function setup () {
-   createCanvas (innerWidth, innerHeight)
-}
-
-function  draw () {
-   background (`black`)
-}
